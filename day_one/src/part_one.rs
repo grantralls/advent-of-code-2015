@@ -5,7 +5,7 @@ pub fn run(input: &str) {
 fn final_floor(input: &str) -> i32 {
     let mut final_floor = 0;
 
-    for ch in input.chars() {
+    input.chars().for_each(|ch| {
         if ch == crate::UP {
             final_floor += 1;
         } else if ch == crate::DOWN {
@@ -13,9 +13,9 @@ fn final_floor(input: &str) -> i32 {
         } else {
             panic!("Invalid character, expected either ')' or '(': {}", ch);
         }
-    }
+    });
 
-    return final_floor;
+    final_floor
 }
 
 #[cfg(test)]
