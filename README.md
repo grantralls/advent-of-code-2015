@@ -20,11 +20,11 @@ This advent of code is being worked on in 2023 as a fun programming exercise to 
 
 The root folder is a [Rust Virtual Workspace](https://doc.rust-lang.org/cargo/reference/workspaces.html). Essentially meaning one "package" that contains many individual packages. Each individual package is a days solution and named accordingly (day-1, day-2...).
 
-### Files
+### Files (per day)
 
--   main - binary entry
--   lib - library (code that can be imported from other packages)
--   any-other-file - a module
+-   main.rs - binary entry
+-   lib.rs - library (code that can be imported from other packages)
+-   any-other-file.rs - a module
 
 ## Running a solution
 
