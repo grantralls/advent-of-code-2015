@@ -10,7 +10,11 @@ This advent of code is being worked on in 2023 as a fun programming exercise to 
 
 ## Requirements
 
--   rustc, cargo, and rustup. [Installing via rustup](https://www.rust-lang.org/tools/install) works in the majority of cases
+-   rustc
+-   cargo
+-   rustup
+
+[Installing via rustup](https://www.rust-lang.org/tools/install) works in the majority of cases
 
 ## Project Structure
 
